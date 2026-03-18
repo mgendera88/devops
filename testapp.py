@@ -10,3 +10,6 @@ def read_root():
 @app.get("/health")
 def health():
     return {"status": "ok"}
+@app.get("/dzialaa")
+def dziala():
+    return {"message":"Ale super dziala hihi"}
