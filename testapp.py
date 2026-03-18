@@ -13,3 +13,6 @@ def health():
 @app.get("/dzialaa")
 def dziala():
     return {"message":"Ale super dziala hihi"}
+@app.get("/dziala")
+def dziala():
+    return {"message":"Ale super dziala hihi"}

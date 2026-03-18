@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: devops-app
-        image: devops-app
+        image: mikgen/devops-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
         # opcjonalnie: liveness i readiness probe
