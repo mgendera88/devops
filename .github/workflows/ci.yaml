@@ -25,4 +25,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: <mgendera88>/devops-app:latest
+          tags: mgendera88/devops-app:latest
